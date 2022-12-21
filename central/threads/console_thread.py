@@ -176,6 +176,8 @@ class ConsoleThread(threading.Thread):
                 self.print_numb_ppl(self.sockets)
 
                 choice = input()
+                
+                print(choice)
 
                 if choice == '0': # exit
                     for board in self.sockets:
