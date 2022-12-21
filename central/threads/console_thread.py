@@ -142,7 +142,8 @@ class ConsoleThread(threading.Thread):
                 msg = 'all_off'
                 log = f'{board},tudo desligado'
                 self.write_log(log)
-            if choice == '': self.clear()
+            if choice == '': 
+                self.clear()
             else:
                 self.send_req(board, msg)
                 self.clear()
@@ -176,8 +177,6 @@ class ConsoleThread(threading.Thread):
                 self.print_numb_ppl(self.sockets)
 
                 choice = input()
-                
-                print(choice)
 
                 if choice == '0': # exit
                     for board in self.sockets:
@@ -219,6 +218,7 @@ class ConsoleThread(threading.Thread):
                         self.write_log(log)
                 else: 
                     self.clear()
+                    print('test')
                     for board in self.sockets:
                         if choice == board:
                             self.room_console(board)
