@@ -56,6 +56,7 @@ class ConnectionThread(threading.Thread):
 
             elif request == 'all_off':
                 self.room_thread.room.all_off()
+                self.send_message('todos os estados foram desligados')
                 print('todos os retornos estão desligados')
 
             elif request == 'switch_alarm':
