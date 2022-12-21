@@ -1,8 +1,8 @@
 {
-    "ip_servidor_central": "192.168.1.103",
-    "porta_servidor_central": 34315,
-    "ip_servidor_distribuido": "192.168.1.146",
-    "porta_servidor_distribuido": 51343,
+    "ip_servidor_central": "164.41.98.28",
+    "porta_servidor_central": 10701,
+    "ip_servidor_distribuido": "164.41.98.15",
+    "porta_servidor_distribuido": 10702,
     "nome": "sala 4",
     "outputs": [
         {
