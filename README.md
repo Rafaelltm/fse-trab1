@@ -1,8 +1,8 @@
 # fse-trab1
-## Aluno: Rafael Leão Teixeira de Magalhães
-## Matrícula: 190019158
+#### Aluno: Rafael Leão Teixeira de Magalhães
+#### Matrícula: 190019158
 
-#Como rodar?
+# Como rodar?
 
 - Coloque os conteúdos da pasta `central/` na placa que servirá como servidor central.  
 - Coloque os conteúdos da pasta `distrib/` nas placas que servirão como servidores distribuídos.
