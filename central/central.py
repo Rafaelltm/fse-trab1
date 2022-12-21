@@ -1,6 +1,6 @@
 import sys
 
-from threads.console_thread import ConsoleThread
+from threads.console_thread import *
 
 def main():
     host = sys.argv[1]
