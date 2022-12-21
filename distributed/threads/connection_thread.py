@@ -3,7 +3,7 @@ import socket
 import sys
 
 from room import Room
-from room_thread import RoomThread
+from threads.room_thread import RoomThread
 
 class ConnectionThread(threading.Thread):
     def __init__(self, room:Room) -> None:

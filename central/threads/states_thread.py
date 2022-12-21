@@ -1,7 +1,7 @@
 import threading
 import json
 
-from server_thread import ServerThread
+from threads.server_thread import ServerThread
 from time import sleep
 
 class StatesThread(threading.Thread):

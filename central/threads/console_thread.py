@@ -4,7 +4,7 @@ import sys
 import os
 
 from datetime import datetime
-from states_thread import StatesThread
+from threads.states_thread import StatesThread
 
 ROOMS ="""
 Salas Conectadas:
