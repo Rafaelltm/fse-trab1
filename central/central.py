@@ -1,5 +1,3 @@
-import sys
-
 from threads.console_thread import *
 
 def main():
