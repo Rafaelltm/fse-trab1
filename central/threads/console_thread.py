@@ -218,7 +218,6 @@ class ConsoleThread(threading.Thread):
                         self.write_log(log)
                 else: 
                     self.clear()
-                    print('test')
                     for board in self.sockets:
                         if choice == board:
                             self.room_console(board)
